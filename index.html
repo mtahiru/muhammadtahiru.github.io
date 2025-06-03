@@ -1,146 +1,131 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #0e0e0e}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px '.AppleSystemUIFontMonospaced'; color: #0e0e0e; min-height: 17.0px}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Awal Tahiru</title>
+  <style>
+    :root {
+      --bg-light: #f7f9fc;
+      --bg-dark: #0d1117;
+      --text-light: #333;
+      --text-dark: #c9d1d9;
+      --card-bg-light: #ffffff;
+      --card-bg-dark: #161b22;
+      --accent: #0074D9;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0; padding: 0;
+      background: var(--bg-light);
+      color: var(--text-light);
+      transition: background 0.3s, color 0.3s;
+    }
+    body.dark {
+      background: var(--bg-dark);
+      color: var(--text-dark);
+    }
+    header {
+      background: #001f3f; color: white;
+      padding: 2rem; text-align: center;
+    }
+    section {
+      padding: 2rem 10%; max-width: 900px; margin: auto;
+    }
+    h1, h2 { color: #001f3f; }
+    body.dark h1, body.dark h2 { color: #58a6ff; }
+    .section-title { margin-top: 3rem; }
+    .card {
+      background: var(--card-bg-light);
+      padding: 1.5rem; border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem; transition: background 0.3s;
+    }
+    body.dark .card { background: var(--card-bg-dark); }
+    a { color: var(--accent); text-decoration: none; }
+    footer {
+      background: #001f3f; color: white;
+      text-align: center; padding: 1rem; margin-top: 3rem;
+    }
+    .nav {
+      position: sticky; top: 0; background: white; padding: 1rem;
+      display: flex; justify-content: space-around; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    body.dark .nav { background: #0d1117; }
+    .toggle-btn {
+      cursor: pointer; border: none; padding: 0.5rem 1rem;
+      background: #001f3f; color: white; border-radius: 5px;
+    }
+    iframe { width: 100%; height: 400px; border: none; margin-top: 1rem; }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Muhammad Awal Tahiru&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>:root {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--bg-light: #f7f9fc;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--bg-dark: #0d1117;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--text-light: #333;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--text-dark: #c9d1d9;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--card-bg-light: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--card-bg-dark: #161b22;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--accent: #0074D9;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Segoe UI', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 0; padding: 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: var(--bg-light);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--text-light);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>transition: background 0.3s, color 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body.dark {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: var(--bg-dark);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--text-dark);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #001f3f; color: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 2rem; text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>section {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 2rem 10%; max-width: 900px; margin: auto;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>h1, h2 { color: #001f3f; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body.dark h1, body.dark h2 { color: #58a6ff; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.section-title { margin-top: 3rem; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.card {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: var(--card-bg-light);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.5rem; border-radius: 8px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 10px rgba(0,0,0,0.05);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 1.5rem; transition: background 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body.dark .card { background: var(--card-bg-dark); }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>a { color: var(--accent); text-decoration: none; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>footer {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #001f3f; color: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center; padding: 1rem; margin-top: 3rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.nav {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>position: sticky; top: 0; background: white; padding: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex; justify-content: space-around; box-shadow: 0 2px 5px rgba(0,0,0,0.1);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body.dark .nav { background: #0d1117; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.toggle-btn {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer; border: none; padding: 0.5rem 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #001f3f; color: white; border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>iframe { width: 100%; height: 400px; border: none; margin-top: 1rem; }</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Muhammad Awal Tahiru&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Physics &amp; Applied Math Student at Elon University | Lumen Scholar | Quantum Researcher&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="toggle-btn" onclick="toggleDarkMode()"&gt;Toggle Dark Mode&lt;/button&gt;</p>
-<p class="p1">&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;nav class="nav"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#about"&gt;About&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#research"&gt;Research&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#projects"&gt;Projects&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
-<p class="p1">&lt;/nav&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="about"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2 class="section-title"&gt;About Me&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;I’m a first-generation undergraduate student studying Physics and Applied Mathematics at Elon University, with a minor in Leadership Studies. My research centers on quantum decoherence, scattering, and the emergence of classical behavior from quantum systems. I am currently a Lumen Prize Scholar conducting a multi-year research project on the foundations of time and entropy in closed quantum systems.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="research"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2 class="section-title"&gt;Research&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Scattering &amp; Decoherence in Quantum Systems&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Using Wigner functions, I simulate how wavepackets scatter and tunnel in asymmetric wells and study how entanglement entropy evolves. This research contributes to understanding how classicality and the arrow of time emerge from quantum dynamics.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;iframe src="https://www.geogebra.org/material/iframe/id/fbw4hnhj/width/800/height/450" title="Quantum Wavepacket Simulation"&gt;&lt;/iframe&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="projects"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2 class="section-title"&gt;Projects&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;AI Game Player: 2048&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Developed a reinforcement learning-based AI to play 2048 efficiently from a command-line interface.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Computational Physics Models&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Created interactive models for electric/magnetic fields and projectile motion to enhance physics education.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2 class="section-title"&gt;Leadership &amp; Service&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;As a shift lead for Habitat for Humanity, I manage build shifts and promote year-round service. I also led a service-learning trip focused on food justice and sustainability through Elon’s Alternative Break Program.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2 class="section-title"&gt;Contact&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Email: &lt;a href="mailto:muhammadawaltahiru@gmail.com"&gt;muhammadawaltahiru@gmail.com&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;LinkedIn: &lt;a href="https://www.linkedin.com/in/muhammad-awal-tahiru-8bb990315"&gt;linkedin.com/in/muhammad-awal-tahiru-8bb990315&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;&lt;a href="/Muhammad_Awal_Tahiru_Resume_Updated.docx" download&gt;📄 Download My Resume&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;&amp;copy; 2025 Muhammad Awal Tahiru. All rights reserved.&lt;/p&gt;</p>
-<p class="p1">&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">function toggleDarkMode() {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>document.body.classList.toggle('dark');</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+<header>
+  <h1>Muhammad Awal Tahiru</h1>
+  <p>Physics & Applied Math Student at Elon University | Lumen Scholar | Quantum Researcher</p>
+  <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</header>
+
+<nav class="nav">
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="card">
+    <p>I’m a first-generation undergraduate student studying Physics and Applied Mathematics at Elon University, with a minor in Leadership Studies. My research centers on quantum decoherence, scattering, and the emergence of classical behavior from quantum systems. I am currently a Lumen Prize Scholar conducting a multi-year research project on the foundations of time and entropy in closed quantum systems.</p>
+  </div>
+</section>
+
+<section id="research">
+  <h2 class="section-title">Research</h2>
+  <div class="card">
+    <h3>Scattering & Decoherence in Quantum Systems</h3>
+    <p>Using Wigner functions, I simulate how wavepackets scatter and tunnel in asymmetric wells and study how entanglement entropy evolves. This research contributes to understanding how classicality and the arrow of time emerge from quantum dynamics.</p>
+    <iframe src="https://www.geogebra.org/material/iframe/id/fbw4hnhj/width/800/height/450" title="Quantum Wavepacket Simulation"></iframe>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="card">
+    <h3>AI Game Player: 2048</h3>
+    <p>Developed a reinforcement learning-based AI to play 2048 efficiently from a command-line interface.</p>
+    <h3>Computational Physics Models</h3>
+    <p>Created interactive models for electric/magnetic fields and projectile motion to enhance physics education.</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Leadership & Service</h2>
+  <div class="card">
+    <p>As a shift lead for Habitat for Humanity, I manage build shifts and promote year-round service. I also led a service-learning trip focused on food justice and sustainability through Elon’s Alternative Break Program.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:muhammadawaltahiru@gmail.com">muhammadawaltahiru@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/muhammad-awal-tahiru-8bb990315">linkedin.com/in/muhammad-awal-tahiru-8bb990315</a></p>
+    <p><a href="/Muhammad_Awal_Tahiru_Resume_Updated.docx" download>📄 Download My Resume</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Muhammad Awal Tahiru. All rights reserved.</p>
+</footer>
+
+<script>
+function toggleDarkMode() {
+  document.body.classList.toggle('dark');
+}
+</script>
+
 </body>
 </html>
